@@ -1,10 +1,10 @@
-package com.cake.sweetsliceapi.entity;
+package com.cake.sweetsliceapi.user.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 import lombok.Setter;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "users")
@@ -15,10 +15,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NonNull
+    @NotNull
     private String username;
-    @NonNull
+    @NotNull
     private String password;
-    @NonNull
-    private String email;
+    private String roles;
 }

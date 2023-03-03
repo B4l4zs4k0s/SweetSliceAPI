@@ -1,6 +1,6 @@
-package com.cake.sweetsliceapi.service;
+package com.cake.sweetsliceapi.user.service;
 
-import com.cake.sweetsliceapi.repository.UserRepository;
+import com.cake.sweetsliceapi.user.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
