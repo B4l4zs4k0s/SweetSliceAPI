@@ -1,10 +1,11 @@
 package com.cake.sweetsliceapi.user.dto;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.validation.constraints.NotBlank;
+
 
 @NoArgsConstructor
 @Getter
